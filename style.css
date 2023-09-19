@@ -58,9 +58,11 @@
     text-decoration-color: rgb(181, 181, 181);
   }
   .logomake {
+    position: relative;
     clip-path: circle(50% at 50% 50%);
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   .logo {
     font-size: 2rem;
@@ -80,6 +82,7 @@
   .hamburger-menu {
     position: relative;
     display: inline-block;
+    z-index: 1000;
   }
   
   .hamburger-icon {
@@ -436,16 +439,3 @@
     text-align: center;
   }
   
-
-  .nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  
-  .nav-link {
-    gap: 2rem;
-    list-style: none;
-    font-size: 1.5rem;
-  }
